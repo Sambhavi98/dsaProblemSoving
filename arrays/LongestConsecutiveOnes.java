@@ -18,9 +18,9 @@ public class LongestConsecutiveOnes {
 				currLength++;
 			}
 			else {
-				maxLength=Math.max(currLength,maxLength);
 				currLength=0;
 			}
+			maxLength=Math.max(currLength,maxLength);
 		}
 		return maxLength;
 	}
